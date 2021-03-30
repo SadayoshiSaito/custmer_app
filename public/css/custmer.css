@@ -1,0 +1,9 @@
+.form-control::placeholder{
+    color: #cccccc;
+}
+
+/* サイト全体のフォント指定 */
+body {
+    font-family: "MS ゴシック" ;
+    background-color: whitesmoke;
+}

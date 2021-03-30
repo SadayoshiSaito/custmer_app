@@ -1,0 +1,9 @@
+CREATE TABLE custmers (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    custmer_name VARCHAR(30) NOT NULL,
+    custmer_name_kana VARCHAR(30),
+    custmer_email VARCHAR(50),
+    custmer_phone_number VARCHAR(20),
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
